@@ -43,6 +43,7 @@ public class QuickSort {
 		for(int i:a)
 			System.out.print(i + " ");
 	}
+	
 	public static void main(String[] args) {
 		int a[] = {3,2,1,5,6,7};
 		quick_sort(a,0,5);
