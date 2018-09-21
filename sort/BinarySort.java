@@ -23,6 +23,7 @@ public class BinarySort {
 					high = mid - 1;
 				else
 					low = mid + 1;
+				
 			}
 			System.out.println(low+""+high);
 			for(int j = i - 1; j > high; j--)//最后返回的是high
